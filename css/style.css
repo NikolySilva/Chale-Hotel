@@ -43,7 +43,7 @@ body{
     text-indent: -3000px;
 }
 
-#menu{
+#area-menu{
     background: url(../imagens/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
@@ -71,6 +71,36 @@ body{
 #menu-locais .locais {
     float: left;
     padding-top: 5px;
+}
+
+#menu {
+    margin-top: 15px;
+}
+
+.depoimento{
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+ul{ 
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
 }
 
 a{
